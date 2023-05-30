@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <button class="open-widget">show widget</button>
+    <div id="widget-popup">
+            <ion-icon name="close-outline" class="close-widget"></ion-icon>
+        <div id="infoneige">
+            <div class="head">
+                <div class="date">
+                    <p>Mercredi</p>
+                    <p><b>12 avril 2023</b> 10h59</p>
+                </div>
+                <div class="station-name">
+                    <p class="station-name">Toutes stations n'py</p>
+                </div>
+            </div>
+            <div class="body">
+                <ul id="stationList">
+                    <li data-station="toutes">Toutes</li>
+                    <li data-station="cauterets">Cauterets</li>
+                    <li data-station="gourette">Gourette</li>
+                    <li data-station="grand-tourmalet">Grand Tourmalet</li>
+                    <li data-station="saint-martin">La Pierre Saint Martin</li>
+                    <li data-station="luz-ardiden">Luz-Ardiden</li>
+                    <li data-station="peyragudes">Peyragudes</li>
+                    <li data-station="piau-engaly">Piau-Engaly</li>
+                    <li data-station="pic-midi">Pic du Midi</li>
+                    <!-- Add more list items as needed -->
+                </ul>
+                <div id="stationContainer">
+                    <!-- toutes stations -->
+                    <div id="toutes" class="station-info">
+                        <!-- stations list -->
+                        <div>
+                            <ul>
+                                <li>Cauterets <span class="ouvert">Ouvert</span></li>
+                                <li>Gourette <span class="ouvert">Ouvert</span></li>
+                                <li>Grand Tourmalet<span class="ouvert">Ouvert</span></li>
+                                <li>La Pierre Saint Martin <span class="ouvert">Ouvert</span></li>
+                                <li>Luz-Ardiden <span class="ferme">Fermé</span></li>
+                                <li>Peyragudes <span class="ouvert">Ouvert</span></li>
+                                <li>Piau-Engaly <span class="ferme">Fermé</span></li>
+                                <li>Pic du Midi <span class="ferme">Fermé</span></li>
+                            </ul>
+                            <a href="">Les dates d'ouverture ></a>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <img src="img/ski-lift.jpg" alt="">
+                                    <p>Remontées<br> ouvertes</p>
+                                    <p><b>382/528<br> remontées</b></p>
+                                </li>
+                                <li>
+                                    <img src="img/track.jpg" alt="">
+                                    <p>Pistes<br> ouvertes</p>
+                                    <p><b>382/528<br> pistes</b></p>
+                                </li>
+                                <li>
+                                    <img src="img/g3990.jpg" alt="">
+                                    <p>Km de pistes<br> ouvertes</p>
+                                    <p><b>325/480<br> kilométres</b></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- cauterets -->
+                        <!-- <div class="footer">
+                            <p>Données mises à jour le 12-04-2023 à 10h10</p>
+                            <div>
+                                <button>Plus de détails</button>
+                                <a href="">Voir les webcams</a>
+                            </div>
+                        </div> -->
+                    <div id="cauterets" class="station-info">
+                        <div class="station-status">
+                            <div>
+                                <p>25 novembre 2023 > 14 avril 2024</p>
+                                <p><b>Station de ski ouverte</b><span class="ouvert"></span></p>
+                                <p><b> Liaison Barèges-La Mongie ouverte</b><span class="ouvert"></span></p>
+                            </div>
+                            <div>
+                                <button class="primary-btn">Plus de détails</button>
+                                <a href="">Voir les webcams</a>
+                            </div>
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>
+                                    <img src="img/gondola.png" alt="">
+                                    <p><b>382/528 remontées ouvertes</b></p>
+                                </li>
+                                <li>
+                                    <img src="img/measure-distance.png" alt="">
+
+                                    <p><b>325/480 km de piste ouvertes</b></p>
+                                </li>
+                                                                <li>
+                                    <img src="img/gondola.png" alt="">
+                                    <p><b>382/528 remontées ouvertes</b></p>
+                                </li>
+                                <li>
+                                    <img src="img/measure-distance.png" alt="">
+
+                                    <p><b>325/480 km de piste ouvertes</b></p>
+                                </li>
+                                                                <li>
+                                    <img src="img/gondola.png" alt="">
+                                    <p><b>382/528 remontées ouvertes</b></p>
+                                </li>
+                                <li>
+                                    <img src="img/measure-distance.png" alt="">
+
+                                    <p><b>325/480 km de piste ouvertes</b></p>
+                                </li>
+                                                                <li>
+                                    <img src="img/gondola.png" alt="">
+                                    <p><b>382/528 remontées ouvertes</b></p>
+                                </li>
+                                <li>
+                                    <img src="img/measure-distance.png" alt="">
+
+                                    <p><b>325/480 km de piste ouvertes</b></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <p>Données mises à jour le 12-04-2023 à 10h10</p>
+                    </div>
+                    <div id="gourette" class="station-info">Gourette</div>
+                    <div id="grand-tourmalet" class="station-info">Grand Tourmalet</div>
+                    <div id="saint-martin" class="station-info">La Pierre Saint Martin</div>
+                    <div id="luz-ardiden" class="station-info">Luz-Ardiden</div>
+                    <div id="peyragudes" class="station-info">Peyragudes</div>
+                    <div id="piau-engaly" class="station-info">Piau-Engaly</div>
+                    <div id="pic-midi" class="station-info">Pic du Midi</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
